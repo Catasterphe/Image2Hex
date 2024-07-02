@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Read Image</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <b><p>Image:</p></b>
+    <canvas id="Canvas"></canvas>
+    </br>
+    <input type="file" id="OpenImage" name="OpenImage" />    
+    <b><p>Output:</p></b>
+    <button onclick="DownloadText()" id="DownloadButton">Download Output</button>
+    <input type="text" id="OutputBox" value="" rows="4" cols="40" readonly/>
+    <b><p>X:</p></b>
+    <input type="text" id="X" value="" rows="1" cols="1" readonly/>   
+    <b><p>Y:</p></b>
+    <input type="text" id="Y" value="" rows="1" cols="1" readonly/>   
+    </br>
+    <script src="script.js"></script>
+  </body>
+</html>
